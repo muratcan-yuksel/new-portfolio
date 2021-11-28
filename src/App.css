@@ -6,4 +6,9 @@
 }
 .techStack {
   margin: 2em;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px rgb(255, 0, 0), 0 0 90px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0),
+    0 0 15px rgb(255, 0, 0);
+  border-radius: 5%;
+  border: 1em solid #2c3034;
 }
