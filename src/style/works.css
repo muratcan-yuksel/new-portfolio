@@ -1,0 +1,23 @@
+.workImageContainer {
+  height: 40em;
+  width: 100%;
+  border: 5px solid white;
+}
+.workImage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.text {
+  color: white;
+}
+/* .row {
+  border: 5px solid white;
+} */

@@ -7,12 +7,12 @@ import Skills from "./components/Skills";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Works from "./components/Works";
 
 const App = () => {
   return (
     <div id="mainBody">
       <Navbar />
-
       <Container fluid>
         <Row>
           <Col lg={8} xs={12} sm={12} md={8} xxl={8}>
@@ -27,6 +27,9 @@ const App = () => {
           </Col>
         </Row>{" "}
       </Container>
+      <div className="component">
+        <Works />
+      </div>
     </div>
   );
 };
